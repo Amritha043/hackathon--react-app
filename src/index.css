@@ -1,0 +1,155 @@
+body{
+    background: linear-gradient(135deg,#0f172a,#1e293b,#334155);
+    min-height:100vh;
+}
+
+.team-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:50px 15px;
+}
+
+.team-card{
+    width:100%;
+    max-width:950px;
+    background:#ffffff;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+}
+
+.form-header{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.form-header h2{
+    color:#2563eb;
+    font-weight:bold;
+}
+
+.form-header p{
+    color:#666;
+}
+
+.section-title{
+    background:linear-gradient(90deg,#2563eb,#06b6d4);
+    color:white;
+    padding:10px 18px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.section-title i{
+    margin-right:10px;
+}
+
+label{
+    font-weight:600;
+    color:#334155;
+    margin-bottom:8px;
+}
+
+.form-control{
+    border-radius:12px;
+    border:2px solid #dbeafe;
+    padding:12px;
+    transition:.3s;
+}
+
+.form-control:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 12px rgba(37,99,235,.3);
+}
+
+.register-btn{
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    color:white;
+    border:none;
+    padding:14px 50px;
+    font-size:18px;
+    border-radius:40px;
+    transition:.3s;
+    font-weight:bold;
+}
+
+.register-btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 25px rgba(37,99,235,.4);
+}
+
+@media(max-width:768px){
+
+.team-card{
+    padding:25px;
+}
+
+.section-title{
+    font-size:16px;
+}
+
+.register-btn{
+    width:100%;
+}
+
+}
+body{
+    background:#f4f7fb;
+}
+
+.page-title{
+    color:#1e3a8a;
+    font-weight:700;
+}
+
+.team-box{
+    background:#fff;
+    border-left:6px solid #2563eb;
+   
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    transition:0.3s;
+    height:100%;
+}
+
+.team-box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.12);
+}
+
+.team-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+    border-bottom:1px solid #e5e7eb;
+    padding-bottom:10px;
+}
+
+.team-top h5{
+    margin:0;
+    color:#1e3a8a;
+    font-weight:600;
+}
+
+.team-top span{
+    background:#2563eb;
+    color:#fff;
+    padding:4px 10px;
+    border-radius:15px;
+    font-size:13px;
+}
+
+.team-info p{
+    margin:8px 0;
+    color:#444;
+    font-size:15px;
+}
+
+.team-info strong{
+    color:#111827;
+}
